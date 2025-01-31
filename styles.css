@@ -1,2 +1,20 @@
 
 /* Your CSS Code here. */
+
+/* Initial state of the button */
+#btn {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Hover state */
+#btn:hover {
+    background-color: yellow;
+    color: black;
+    border-radius: 30px;
+}
